@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be mines this Valentines</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated background elements -->
+    <div class="bg-grid"></div>
+
+    <!-- Floating neon-pink hearts (blank site) -->
+    <div class="floating-hearts" aria-hidden="true">
+        <div class="heart heart-1"><span class="heart-inner">❤</span></div>
+        <div class="heart heart-2"><span class="heart-inner">❤</span></div>
+        <div class="heart heart-3"><span class="heart-inner">❤</span></div>
+        <div class="heart heart-4"><span class="heart-inner">❤</span></div>
+        <div class="heart heart-5"><span class="heart-inner">❤</span></div>
+        <div class="heart heart-6"><span class="heart-inner">❤</span></div>
+        <div class="heart heart-7"><span class="heart-inner">❤</span></div>
+        <div class="heart heart-8"><span class="heart-inner">❤</span></div>
+        <div class="heart heart-9"><span class="heart-inner">❤</span></div>
+        <div class="heart heart-10"><span class="heart-inner">❤</span></div>
+    </div>
+
+    <!-- Floating question marks -->
+    <div class="floating-question-marks" aria-hidden="true">
+        <div class="qmark qmark-1"><span class="qmark-inner">?</span></div>
+        <div class="qmark qmark-2"><span class="qmark-inner">?</span></div>
+        <div class="qmark qmark-3"><span class="qmark-inner">?</span></div>
+        <div class="qmark qmark-4"><span class="qmark-inner">?</span></div>
+        <div class="qmark qmark-5"><span class="qmark-inner">?</span></div>
+        <div class="qmark qmark-6"><span class="qmark-inner">?</span></div>
+        <div class="qmark qmark-7"><span class="qmark-inner">?</span></div>
+        <div class="qmark qmark-8"><span class="qmark-inner">?</span></div>
+        <div class="qmark qmark-9"><span class="qmark-inner">?</span></div>
+        <div class="qmark qmark-10"><span class="qmark-inner">?</span></div>
+    </div>
+
+    <!-- Valentine heading -->
+    <div class="valentine-heading" aria-hidden="true">Dear, Pookie </div>
+
+    <!-- Valentine box -->
+    <div class="valentine-box" role="dialog" aria-labelledby="valentine-title" aria-modal="true">
+        <h2 id="valentine-title">🩷Will you be my Valentine?🩷</h2>
+        <div class="valentine-actions">
+            <a href="itinerary.html" class="btn btn-yes btn-yes-large" id="btn-yes">YES!!</a>
+            <button class="btn btn-no btn-no-small" id="btn-no">nahhh</button>
+        </div>
+        <p class="response" aria-live="polite"></p>
+        <p class="valentine-caption">PLZZZZ say yes lol!!!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
